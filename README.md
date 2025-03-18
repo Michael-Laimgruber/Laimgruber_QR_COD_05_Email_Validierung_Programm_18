@@ -26,15 +26,17 @@ Zahlen können an beliebiger Stelle verwendet werden.
 
 Einige Sonderzeichen sind erlaubt, darunter:
 
-Punkte (.)
+- Punkte (.)
 
-Unterstriche (_)
+- Unterstriche (_)
 
-Bindestriche (-)
+- Bindestriche (-)
 
-Pluszeichen (+)
+- Pluszeichen (+)
 
-Nicht erlaubte Zeichen: Bestimmte Zeichen wie Leerzeichen, Kommas (,), Semikolons (;), Doppelpunkte (:), Klammern (), Ausrufezeichen (!), Fragezeichen (?), sowie Umlaute und andere Sonderzeichen werden in der Regel nicht akzeptiert.
+*Nicht erlaubte Zeichen*
+
+Bestimmte Zeichen wie Leerzeichen, Kommas (,), Semikolons (;), Doppelpunkte (:), Klammern (), Ausrufezeichen (!), Fragezeichen (?), sowie Umlaute und andere Sonderzeichen werden in der Regel nicht akzeptiert.
 
 
 **Position von Zeichen**
