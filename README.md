@@ -41,7 +41,7 @@ Bestimmte Zeichen wie Leerzeichen, Kommas (,), Semikolons (;), Doppelpunkte (:),
 
 **Position von Zeichen**
 
-*Punkt (.)*
+*Punkt ( . )*
 
 Punkte dürfen verwendet werden, aber nicht am Anfang oder Ende des E-Mail-Namens stehen. Auch mehrere aufeinanderfolgende Punkte sind oft nicht erlaubt.
 Richtig: `max.mustermann@example.com`
