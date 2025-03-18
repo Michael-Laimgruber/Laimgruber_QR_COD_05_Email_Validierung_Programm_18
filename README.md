@@ -49,7 +49,8 @@ Falsch: `.max.mustermann@example.com` oder `max..mustermann@example.com`
 *Bindestriche und Unterstriche*
 Diese dürfen ebenfalls nicht am Anfang oder Ende des Namens stehen und oft auch nicht mehrfach hintereinander verwendet werden.
 
-*Länge des E-Mail-Namens*
+**Länge des E-Mail-Namens**
 
 Der lokale Teil (vor dem @) sollte in der Regel zwischen 1 und 64 Zeichen lang sein. 
+
 Der gesamte E-Mail-Name (einschließlich Domain) sollte nicht mehr als 254 Zeichen umfassen.
