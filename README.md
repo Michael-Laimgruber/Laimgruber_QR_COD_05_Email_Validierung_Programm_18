@@ -26,13 +26,13 @@ Zahlen können an beliebiger Stelle verwendet werden.
 
 Einige Sonderzeichen sind erlaubt, darunter:
 
-- Punkte (.)
+- Punkte ( . )
 
-- Unterstriche (_)
+- Unterstriche ( _ )
 
-- Bindestriche (-)
+- Bindestriche ( - )
 
-- Pluszeichen (+)
+- Pluszeichen ( + )
 
 *Nicht erlaubte Zeichen*
 
