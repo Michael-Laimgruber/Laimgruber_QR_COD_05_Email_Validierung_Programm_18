@@ -14,7 +14,7 @@ int main()
 
     char user_input[255]; // Store in an arry with maximum length 254 + 1 for null terminator
 
-    int valid = 1; // Assume email is valid until proven otherwise (if parameters fail reduce to 0) at the end check if <1
+    int valid = 1; // Assume email is valid until proven otherwise (if parameters fail, reduce to 0) at the end check if <1
 
     int length = 0;
 
@@ -49,14 +49,10 @@ int main()
 
 
 
-        // DO WHILE TO RE ENTER HERE (want to check another email adress Y or N ( - 1 or 2 )
+    // BIG LOOP TO FAST RECHECK EMAIL ADRESSES
     while (1)
     {
-        //Endless Loop - input reset
-        //input_reset = 0;
-
-
-
+        
         // RESET ALL VARIABLES FOR A NEW ENTRY
         user_input[255];
         valid = 1;
@@ -98,7 +94,6 @@ int main()
 
 
 
-
         // CHECK CHARACTERS
         // A Z a z 0 9 . _ - + @
 
@@ -119,7 +114,6 @@ int main()
 
 
 
-
         // CHECK CONSECUTIVE DOTS 
         // .. ... ...
         // loop through user input array and check a dot & if there is another dot
@@ -132,7 +126,6 @@ int main()
                 break;
             }
         }
-
 
 
 
@@ -149,7 +142,6 @@ int main()
 
 
 
-
         // CHECK IF THERE IS A DOT AT BEGINNING
         // Check if a dot exists in array
         for (int i = 0; i < length; i++)
@@ -163,13 +155,11 @@ int main()
 
 
 
-
         // Check if the dot is at the start (<1) of user_input
         if (dot_symbol_index == -1 || dot_symbol_index < 1)
         {
             valid = 0;
         }
-
 
 
 
@@ -182,7 +172,6 @@ int main()
                 break;
             }
         }
-
 
 
 
@@ -203,6 +192,7 @@ int main()
         // OUTPUT
 
 
+        
         // valid must be 1 as initialized or the -else statement is printed
         if (valid)
         {
@@ -214,7 +204,7 @@ int main()
             printf("NOT valid\n%d checked\n\n\n", check_counter);
         }
 
-
+        // check_counter increase every iteration from the big while loop to be able to print out the amount of email adress checks (you've checked X email adresses) 
         check_counter++;
     }
 
